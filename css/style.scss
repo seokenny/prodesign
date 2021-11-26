@@ -331,6 +331,15 @@ a {
     width: 35px;
 }
 
+.img_margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img_margin-top {
+    margin-top: 20px;
+}
+
 @media only screen and (min-width: 576px) {
     #contain {
         & .contact {
