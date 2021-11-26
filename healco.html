@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pragati+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg==" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/burger.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HealCo Case Study | Kenny Seo</title>
+</head>
+<body>
+    <nav></nav>
+    <section id="contain">
+        <div class="healco">
+            <nav class="mnav">
+                <div class="nav_left">
+                    <a href="index.html">
+                        <img src="images/logo.svg" class="logo">
+                    </a>
+                </div>
+                <button id="burger" class="hamburger hamburger--squeeze" type="button" onclick="openburger()">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>  
+            </nav>
+            <div id="mnav_slide" class="mnav_slide">
+                <ul class="mnav_list">
+                    <li class="mnav_list-li"><a href="index.html">Works</a></li>
+                    <li class="mnav_list-li"><a href="about.html">About</a></li>
+                    <li class="mnav_list-li"><a href="mailto:seo.kenny94@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+            <div id="mnav_slide-overlay" class="mnav_slide-overlay">
+            </div>
+            <div class="nav">
+                <div class="nav_left">
+                    <a href="index.html">
+                        <img src="images/logo.svg" class="logo">
+                    </a>
+                </div>
+                <ul class="nav_list">
+                    <li class="nav_list-li nav_list-li-first">
+                        <a href="index.html">Works</a>
+                    </li>
+                    <li class="nav_list-li">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="nav_list-li nav_list-li-last">
+                        <a href="mailto:seo.kenny94@gmail.com">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Banner-->
+            <div class="banner">
+                <h1 class="banner_h1">HealCo</h1>
+                <p class="banner_p">Shared medical space made simple.</p>
+            </div>
+            <!--Works-->
+            <div class="works">
+                <div class="works_box works_box-left">
+                    <div class="works_box-image">
+                        <img src="images/healco_banner1.png">
+                    </div>
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-header works_box-text-header-quote healco_banner">
+                            “Whether you're listing your medical space or looking to lease, we make sharing simple.”
+                        </h3>
+                    </div>
+                </div>
+                <!--What is-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-mini">
+                            Overview
+                        </h3>
+                        <h3 class="works_box-text-header">
+                            What is HealCo?
+                        </h3>
+                        <p class="works_box-text-para">
+                            HealCo is a web platform specifically made for medical hosts/guests to lease/rent a medically equipped and approved space based on their specialties. For hosts, it allowed easy enlistment of their properties while using a matchmaking system to connect with the ideal guest. For guests, it provided a variety of properties based on the different filters the guests selected. 
+                        </p>
+                        <p class="works_box-text-para">
+                            HealCo also has a <b>huge focus on telemedicine</b> - a way for patients to receive medical assistance through digital and long distance means.
+                        </p>
+                    </div>
+                </div>
+                <!--Roles-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-header">
+                            Roles
+                        </h3>
+                        <p class="works_box-text-para">
+                            My role at HealCo was as a UX/UI Designer. I worked closely with 4 Full Stack Engineers and 2 analytics team members. The CEO was also heavily involved when it came to decision making.
+                        </p>
+                    </div>
+                </div>
+                <!--Users-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-header">
+                            Users
+                        </h3>
+                        <p class="works_box-text-para">
+                            There are 3 categories of users - hosts who were looking to rent out their medically approved space, guests who were looking for medically equipped and approved space, and the admins of HealCo who mediated the information, requests, and applications on the platform. While the hosts and guests have similar experiences, I had to keep in mind the extra features that admins would have through their journey.
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/healcousers.png" data-fancybox>
+                                <img src="images/healcousers.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Goals-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-mini">
+                            Goals
+                        </h3>
+                        <h3 class="works_box-text-header">
+                            Complete Redesign
+                        </h3>
+                        <p class="works_box-text-para">
+                            As HealCo was still a relatively new company, most of their tasks were focused on the completion of its core features. This left the design at a bare minimum.
+                        </p>
+                        <p class="works_box-text-para">
+                            I was brought into HealCo to redesign the entire user interface and experience for their entire HealCo platform - this includes their website, form flows, and dashboard. One thing I had to keep in mind was scalability, as HealCo was still rapidly rolling out new features for its users.
+                        </p>
+                    </div>
+                </div>
+                <!--Order of Goals-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-header">
+                            Order of Goals
+                        </h3>
+                        <p class="works_box-text-para">
+                            Since I needed to redesign the entire HealCo platform, the first thing I needed to do was figure out and plan the flow direction for users. The end-to-end experience was crucial to keep users on track to fulfill all requirements sent by HealCo. 
+                        </p>
+                        <ol class="works_box-text-ol">
+                            <li class="works_box-text-ol-li"><b>Website</b>: Being the initial starting point for any HealCo user, it is essential to have a welcoming landing page with information for users to provide knowledge, security, and confidence..</li>
+                            <li class="works_box-text-ol-li"><b>Form Flows</b>: Following the website, users are prompted to a form flow. This form flow provides a set of questions and requirements for HealCo’s database.</li>
+                            <li class="works_box-text-ol-li"><b>Dashboard</b>: The dashboard is the central hub for all users (hosts/guests/admins). Every feature of HealCo will be available to use within the personalized dashboard.</li>
+                        </ol>
+                        <div class="works_box-image">
+                            <a href="images/healcoflow.png" data-fancybox>
+                                <img src="images/healcoflow.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Rugs Catalog-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-mini">
+                            Website Redesign
+                        </h3>
+                        <h3 class="works_box-text-header">
+                            The Starting Line
+                        </h3>
+                        <p class="works_box-text-para">
+                            The HealCo website was the starting line for all users. Whether it’s to sign up, login, or view articles, this was the starting hub for all features provided by HealCo.
+                        </p>
+                        <h3 class="works_box-text-header">
+                            What's the issue?
+                        </h3>
+                        <p class="works_box-text-para">
+                            The biggest issue with HealCo’s initial website was the lack of information. Being the initial starting point for new users, it was crucial to give new visitors information, security, and confidence when applying for HealCo. Users had no idea what services HealCo provided, how it worked, and whether or not HealCo was a legitimate service. Before coming up with a design, I figured out the questions that users asked before committing to a product or service. This information was used to determine the necessary information the website would provide to users.
+                        </p>
+                        <h3 class="works_box-text-header">
+                            Ideation
+                        </h3>
+                        <p class="works_box-text-para">
+                            For the landing page, I made sure to provide as much information as possible without overloading users. I broke down the features and information that was most noted by users:
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/healco_wireframe.png" data-fancybox>
+                                <img src="images/healco_wireframe.png">
+                            </a>
+                        </div>
+                        <ol class="works_box-text-ol">
+                            <li class="works_box-text-ol-li"><b>HealCo's purpose and mission</b> - so users know they’re joining a platform who knows the wants of its users and fulfills them.</li>
+                            <li class="works_box-text-ol-li"><b>How HealCo works</b> - knowing upfront what HealCo does with crystal clear understanding so users know what service they’re receiving.</li>
+                            <li class="works_box-text-ol-li"><b>Testimonies</b> - to build trust, security, and reliability for users interested in HealCo’s services.</li>
+                            <li class="works_box-text-ol-li"><b>Mentions from reputable sources</b> - as HealCo is a relatively new company, it is important to reference articles and mentions from reputable sources (like Forbes) to show its legitimacy.</li>
+                        </ol>
+                        <div class="works_box-image">
+                            <a href="images/healco_webpage.png" data-fancybox>
+                                <img src="images/healco_webpage.png">
+                            </a>
+                        </div>
+                        <h3 class="works_box-text-header">
+                            First Huddle Passed - Website Redesign
+                        </h3>
+                        <p class="works_box-text-para">
+                            With the new landing page, we’re able to showcase all the crucial information that users look for when signing up for a new service. It showcases all the initial information about HealCo, providing new users with confidence in HealCo’s purpose, reliability, and trust. Multiple call-to-actions have also been added to provide direction for new users.
+                        </p>
+                    </div>
+                </div>
+                <!--Goals-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-mini">
+                            Form Flows Redesign
+                        </h3>
+                        <h3 class="works_box-text-header">
+                            The Halfway Point
+                        </h3>
+                        <p class="works_box-text-para">
+                            After viewing the HealCo website, new users are sent to a sequence of forms. This sequence asks users questions to better identify what they’re looking for. 
+                        </p>
+                        <h3 class="works_box-text-header">
+                            What's the issue?
+                        </h3>
+                        <p class="works_box-text-para">
+                            The main issue with the initial form flow was the amount of tediously specific questions that users were required to fill in before being allowed to proceed. Users felt lost and frustrated when asked such specific questions before they were even given a chance to get to the dashboard to see what HealCo had to offer. This led to some users leaving the form mid-way through the process.
+                        </p>
+                        <h3 class="works_box-text-header">
+                            Getting rid of the tedious
+                        </h3>
+                        <p class="works_box-text-para">
+                            Addressing the requirements of tedious questions, I first laid out the entire flow process and marked them by importance and relevance. Besides the mandatory questions of personal information, I kept the questions that gave a general idea of what users were looking for. I was able to remove half of the questions asked but still kept enough information for HealCo to categorize and create personalized dashboards and results for each user.
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/questionskept.png" data-fancybox>
+                                <img src="images/questionskept.png">
+                            </a>
+                        </div>
+                        <h3 class="works_box-text-header">
+                            Form fulfillments increased
+                        </h3>
+                        <p class="works_box-text-para">
+                            Addressing the requirements of tedious questions, I first laid out the entire flow process and marked them by importance and relevance. Besides the mandatory questions of personal information, I kept the questions that gave a general idea of what users were looking for. I was able to remove half of the questions asked but still kept enough information for HealCo to categorize and create personalized dashboards and results for each user.
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/healco_flowdone.png" data-fancybox>
+                                <img src="images/healco_flowdone.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Dashboard-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-mini">
+                            Dashboard Redesign
+                        </h3>
+                        <h3 class="works_box-text-header">
+                            The Finish Line
+                        </h3>
+                        <p class="works_box-text-para">
+                            After viewing the website and completing the form flow, users are finally presented with their personal dashboard.
+                        </p>
+                        <h3 class="works_box-text-header">
+                            What's the issue?
+                        </h3>
+                        <p class="works_box-text-para">
+                            Although users received their personalized dashboards, the information and services provided were all over the place. It was difficult for users to navigate through their dashboard to the section they wanted. There was a huge lack of connections and links between information, making the user traverse through the entire dashboard to find the correlated information. There was also a lack of any indications of current progression. Providing the user “what” and “where” they are in any current session is important to keep them on track and being transparent.
+                        </p>
+                        <h3 class="works_box-text-header">
+                            Less searching, more doing
+                        </h3>
+                        <p class="works_box-text-para">
+                            I laid out every feature and it’s flow for all users - Admins, Hosts, and Guests. I realized the lack of connections and links between information, making the user go through the entire dashboard to find the correlation information. I included many necessary hyperlinks for users to click if they wanted more information.
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/healco_dash.png" data-fancybox>
+                                <img src="images/healco_dash.png">
+                            </a>
+                        </div>
+                        <div class="works_box-image">
+                            <a href="images/healco_dashfull.png" data-fancybox>
+                                <img src="images/healco_dashfull.png">
+                            </a>
+                        </div>
+                        <div class="works_box-image">
+                            <a href="images/healco_dashmobile.png" data-fancybox>
+                                <img src="images/healco_dashmobile.png">
+                            </a>
+                        </div>
+                        <p class="works_box-text-para">
+                            I also added a visual of progression so users knew how they were doing in the current flow they were in. One thing I focused on was creating a sense of flow between each feature for the users to follow through. This helped users complete each step without being lost on what they’re required to do next.
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/healco_modals.png" data-fancybox>
+                                <img src="images/healco_modals.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Conclusion-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-mini">
+                            Conclusion
+                        </h3>
+                        <h3 class="works_box-text-header">
+                            Completing the marathon
+                        </h3>
+                        <p class="works_box-text-para">
+                            Whether it was the lack of information or the abundance of unnecessary requirements, HealCo’s end-to-end flow gave users a confusing and frustrating experience.
+                        </p>
+                        <p class="works_box-text-para">
+                            Through the new redesign, it solved the main issues for each section of the user flow. The website provides all the necessary information for new users, the updated user flow ensures a smooth experience to promote completion, and the dashboard provides a much needed navigation system that connects relevant areas.
+                        </p>
+                        <p class="works_box-text-para works_box-text-para-sub healco_quote">
+                            This smooth experience from start to finish gives users confidence in themselves and the platform that they’re using.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project_point">
+                    <div class="project_left">
+                        <a href="rugsusa.html">
+                            <p class="project_point-dir">Prev</p>
+                            <p class="project_point-name">Rugs USA</p>
+                        </a>
+                    </div>
+                    <div class="project_right">
+                        <a href="datadove.html">
+                            <p class="project_point-dir">Next</p>
+                            <p class="project_point-name">Data Dove</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="project_top">
+                    <img src="images/triangle.svg" class="backtotop_svg">
+                    <div class="project_top-contain">
+                        <p class="project_top-text backtotop">
+                            Back to top
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="divider"></div>
+                <div class="contact">
+                    <div class="contact_text">
+                        <h1 class="contact_text-h1">
+                            Want to get in contact?
+                        </h1>
+                        <p class="contact_text-para message_me">
+                            Feel free to send me a message for any questions or inquiries through my email at <span class="email bold"><a href="mailto:seo.kenny94@gmail.com">seo.kenny94@gmail.com</a></span> or <span class="linkedin bold"><a href="https://www.linkedin.com/in/kenny-seo-311918137/">LinkedIn</a></span>.
+                        </p>
+                        <p class="contact_text-para">
+                            Designed and developed by Kenny Seo.
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+        <!--GSAP-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+        
+        <script   src="https://code.jquery.com/jquery-3.5.1.js"   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="   crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js" integrity="sha512-j7/1CJweOskkQiS5RD9W8zhEG9D9vpgByNGxPIqkO5KrXrwyDAroM9aQ9w8J7oRqwxGyz429hPVk/zR6IOMtSA==" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/app.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+</body>
+</html>

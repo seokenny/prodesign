@@ -1,0 +1,444 @@
+*, p, h1, h2, h3, h4, h5, h6, ol, ul, li {
+  margin: unset;
+  padding: unset;
+}
+
+p, input {
+  font-family: "Hind Madurai";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins";
+}
+
+a {
+  text-decoration: unset;
+  color: unset;
+}
+
+#contain {
+  width: 85%;
+  margin-left: 7.5%;
+  position: relative;
+}
+
+#contain .nav {
+  display: none;
+}
+
+#contain .mnav {
+  text-align: right;
+  background-color: white;
+  width: 85%;
+  padding: 25px 0;
+  position: fixed;
+  top: 0;
+  right: 7.5%;
+  z-index: 40;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#contain .mnav_list {
+  list-style-type: none;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  text-align: right;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#contain .mnav_list-li {
+  margin: .25em 0;
+}
+
+#contain .mnav_slide {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: -100%;
+  top: 0;
+  right: -100%;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  z-index: 30;
+}
+
+#contain .mnav_slide-overlay {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  display: none;
+}
+
+#contain .banner {
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+}
+
+#contain .banner_h1 {
+  font-size: 3.5em;
+  line-height: 1em;
+}
+
+#contain .banner_p {
+  font-size: 1.5em;
+  margin-top: 40px;
+  font-family: "Pragati Narrow";
+}
+
+#contain .works_box {
+  vertical-align: top;
+  margin-bottom: 7.5%;
+}
+
+#contain .works_box-image {
+  width: 100%;
+}
+
+#contain .works_box-image img {
+  width: 100%;
+}
+
+#contain .works_box-text-header {
+  margin-top: 10px;
+  font-size: 1.75em;
+}
+
+#contain .works_box-text-sub {
+  font-weight: 500;
+  margin-top: -2.5px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-family: "Pragati Narrow";
+}
+
+#contain .works_box-text-para {
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+
+#contain .works_box-text-ol {
+  font-family: "Hind Madurai";
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+#contain .works_box-text-ol-li {
+  margin: 20px 20px 20px 35px;
+}
+
+#contain .works_box-text-ul {
+  font-family: "Hind Madurai";
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+#contain .works_box-text-ul-li {
+  margin: 20px 20px 20px 35px;
+}
+
+#contain .aboutme {
+  padding-bottom: 30px;
+}
+
+#contain .aboutme_text-h1 {
+  font-size: 3em;
+  line-height: 1em;
+}
+
+#contain .project {
+  margin: 100px 0 75px 0;
+}
+
+#contain .project_left {
+  text-align: left;
+}
+
+#contain .project_right {
+  text-align: right;
+}
+
+#contain .project_point {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#contain .project_point-dir {
+  text-transform: uppercase;
+  font-size: .8em;
+}
+
+#contain .project_point-name {
+  font-weight: 500;
+}
+
+#contain .project_point-name:hover {
+  color: black;
+}
+
+#contain .project_top {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#contain .contact {
+  padding-bottom: 60px;
+}
+
+#contain .contact_text-h1 {
+  font-size: 3em;
+  line-height: 1em;
+}
+
+.big_header {
+  font-size: 1.75em;
+}
+
+#contain .healco .banner {
+  margin-bottom: 2vh;
+}
+
+#contain .healco .banner_p {
+  margin-top: unset;
+}
+
+#contain .healco .works_box-image {
+  margin: 0px 0 30px 0;
+}
+
+#contain .healco .works_box-text-mini {
+  font-weight: unset;
+  font-family: "Pragati Narrow";
+  margin-bottom: -10px;
+}
+
+#contain .healco .works_box-text-header {
+  line-height: 1em;
+  font-size: 1.75em;
+  font-family: "Pragati Narrow";
+  font-weight: bold;
+}
+
+#contain .healco .works_box-text-header-quote {
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #f7f7f7;
+  background-color: #090909;
+}
+
+#contain .healco .works_box-text-sub {
+  font-family: "Hind Madurai";
+}
+
+#contain .healco .works_box-text-para {
+  margin-top: 20px;
+}
+
+#contain .healco .works_box-text-para-sub {
+  color: #FF2765;
+}
+
+.rugs_banner {
+  background-color: #625EB2 !important;
+}
+
+.healco_banner {
+  background-color: #30D6B3 !important;
+}
+
+.healco_quote {
+  color: #30D6B3 !important;
+}
+
+.rugs_quote {
+  color: #817AF4 !important;
+}
+
+.backtotop {
+  display: inline-block;
+}
+
+.backtotop, .backtotop_svg {
+  cursor: pointer;
+}
+
+.backtptop_svg:hover {
+  margin-top: -20px;
+}
+
+.private {
+  background-color: #919191 !important;
+}
+
+.small_img {
+  width: 100%;
+  height: 125px;
+  background-color: aliceblue;
+}
+
+.medium_img {
+  width: 100%;
+  height: 225px;
+  background-color: aliceblue;
+}
+
+.slide_mnav {
+  right: 0 !important;
+  -webkit-transition: all .3s ease-in-out !important;
+  transition: all .3s ease-in-out !important;
+}
+
+.slide_mnav-shadow {
+  opacity: 1 !important;
+  -webkit-transition: all .3s ease-in-out !important;
+  transition: all .3s ease-in-out !important;
+  display: block !important;
+}
+
+.message_me {
+  margin: 25px 0;
+}
+
+.case-btn {
+  background-color: #373737;
+  color: white;
+  border: unset;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+}
+
+.case-btn:hover {
+  background-color: black;
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+}
+
+.divider {
+  height: 1px;
+  background-color: #B8B8B8;
+  width: 100%;
+  margin: 0px 0 40px 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 576px) {
+  #contain .contact_text-para {
+    width: 475px;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #contain .mnav {
+    display: none;
+  }
+  #contain .nav {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #contain .nav_list {
+    list-style-type: none;
+    font-family: "Pragati Narrow";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #contain .nav_list-li {
+    margin: 0 15px;
+  }
+  #contain .nav_list-li-first {
+    margin-left: 0;
+  }
+  #contain .nav_list-li-last {
+    margin-right: 0;
+  }
+}
+
+.nav_list-li a:hover {
+  border-bottom: 1px solid black;
+}
+
+@media only screen and (min-width: 940px) {
+  #contain .works_box {
+    width: 48.5%;
+    display: inline-block;
+  }
+  #contain .works_box-left {
+    margin-right: 1.5%;
+  }
+  #contain .works_box-right {
+    margin-left: 1.5%;
+  }
+  #contain .works_box-text-para {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 940px) {
+  #contain .healco .works_box {
+    width: 100%;
+    display: block;
+  }
+  #contain .healco .works_box-left {
+    margin-right: unset;
+  }
+  #contain .healco .works_box-right {
+    margin-left: unset;
+  }
+  #contain .healco .works_box-text-para {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1010px) {
+  #contain {
+    width: 844px;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */

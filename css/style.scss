@@ -1,0 +1,458 @@
+*, p, h1, h2, h3, h4, h5, h6, ol, ul, li {
+    margin: unset;
+    padding: unset;
+}
+
+body {
+}
+
+p, input {
+    font-family: "Hind Madurai"
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins";
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+#contain {
+    width: 85%;
+    margin-left: 7.5%;
+    position: relative;
+    & .nav {
+        display: none;
+    }
+    & .mnav {
+        text-align: right;
+        background-color: white;
+        width: 85%;
+        padding: 25px 0;
+        position: fixed;
+        top: 0;
+        right: 7.5%;
+        z-index: 40;
+        display: flex;
+        justify-content: space-between;
+        &_list {
+            list-style-type: none;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+            text-align: right;
+            font-family: "Poppins";
+            font-weight: bold;
+            font-size: 2em;
+            &-li {
+                margin: .25em 0;
+            }
+        }
+        &_slide {
+            background-color: white;
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+            top:-100%;
+            top: 0;
+            right: -100%;
+            transition: all .3s ease-in-out;
+            z-index: 30;
+            &-overlay {
+                height: 100vh;
+                width: 100%;
+                position: fixed;
+                background-color: rgba(0, 0, 0, .5);
+                top: 0;
+                left: 0;
+                opacity: 0;
+                transition: all .3s ease-in-out;
+                display: none;
+            }
+        }
+    }
+    & .banner {
+        margin-top: 20vh;
+        margin-bottom: 5vh;
+        &_h1 {
+            font-size: 3.5em;
+            line-height: 1em;
+        }
+        &_p {
+            font-size: 1.5em;
+            margin-top: 40px;
+            font-family: "Pragati Narrow";
+        }
+    }
+    & .works {
+        & a {
+        }
+        &_box {
+            vertical-align: top;
+            margin-bottom: 7.5%;
+            &-image {
+                width: 100%;
+                & img {
+                    width: 100%;
+                }
+            }
+            &-text {
+                &-header {
+                    margin-top: 10px;
+                    font-size: 1.75em;
+                }
+                &-sub {
+                    font-weight: 500;
+                    margin-top: -2.5px;
+                    margin-bottom: 10px;
+                    font-size: 1.1em;
+                    font-family: "Pragati Narrow";
+                }
+                &-para {
+                    font-weight: 300;
+                    margin-bottom: 20px;
+                    font-size: 1em;
+                }
+                &-ol {
+                    font-family: "Hind Madurai";
+                    font-weight: 300;
+                    margin-bottom: 20px;
+                    font-size: 1.1em;
+                    &-li {
+                        margin: 20px 20px 20px 35px;
+                    }
+                }
+                &-ul {
+                    font-family: "Hind Madurai";
+                    font-weight: 300;
+                    margin-bottom: 20px;
+                    font-size: 1.1em;
+                    &-li {
+                        margin: 20px 20px 20px 35px;
+                    }
+                }
+            }
+        }
+    }
+    & .aboutme {
+        padding-bottom: 30px;
+        &_text {
+            &-h1 {
+                font-size: 3em;
+                line-height: 1em;
+            }
+        }
+    }
+    & .project {
+        // background-color: aliceblue;
+        margin: 100px 0 75px 0;
+        &_left {
+            text-align: left;
+        }
+        &_right {
+            text-align: right;
+        }
+        &_point {
+            display: flex;
+            justify-content: space-between;
+            &-dir {
+                text-transform: uppercase;
+                font-size: .8em;
+            }
+            &-name {
+                font-weight: 500;
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+        &_top {
+            text-align: center;
+            margin-top: 30px;
+        }
+    }
+    & .contact {
+        padding-bottom: 60px;
+        &_text {
+            &-h1 {
+                font-size: 3em;
+                line-height: 1em;
+            }
+        }
+    }
+}
+
+.big_header {
+    font-size: 1.75em;
+}
+
+// HealCo
+
+#contain {
+    & .healco {
+        & .banner {
+            margin-bottom: 2vh;
+            &_p {
+                margin-top: unset;
+            }
+        }
+        & .works {
+            &_box {
+                &-image {
+                    margin: 0px 0 30px 0;
+                }
+                &-text {
+                    &-mini {
+                        font-weight: unset;
+                        font-family: "Pragati Narrow";
+                        margin-bottom: -10px;
+                    }
+                    &-header {
+                        line-height: 1em;
+                        font-size: 1.75em;
+                        font-family: "Pragati Narrow";
+                        font-weight: bold;
+                        &-quote {
+                            padding: 20px;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            color: #f7f7f7;
+                            background-color: #090909;
+                        }
+                    }
+                    &-sub {
+                        font-family: "Hind Madurai";
+                    }
+                    &-para {
+                        margin-top: 20px;
+                        &-sub {
+                            color: #FF2765;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.rugs_banner {
+    background-color: #625EB2 !important;
+}
+
+.healco_banner {
+    background-color: #30D6B3 !important;
+}
+
+.healco_quote {
+    color: #30D6B3 !important;
+}
+
+.rugs_quote {
+    color: #817AF4 !important;
+}
+
+.backtotop {
+    display: inline-block;
+}
+
+.backtotop, .backtotop_svg {
+    cursor: pointer;
+}
+
+.backtptop_svg:hover {
+    margin-top: -20px;
+}
+
+.private {
+    background-color: #919191 !important;
+}
+
+.small_img {
+    width: 100%;
+    height: 125px;
+    background-color: aliceblue;
+}
+
+.medium_img {
+    width: 100%;
+    height: 225px;
+    background-color: aliceblue;
+}
+
+.slide_mnav {
+    right: 0 !important;
+    transition: all .3s ease-in-out !important;
+}
+
+.slide_mnav-shadow {
+    opacity: 1 !important;
+    transition: all .3s ease-in-out !important;
+    display: block !important;
+}
+
+.message_me {
+    margin: 25px 0;
+}
+
+.case-btn {
+    background-color: #373737;
+    color: white;
+    border: unset;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-transition: background-color .2s linear;
+    -ms-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+}
+
+.case-btn:hover {
+    background-color: black;
+    -webkit-transition: background-color .2s linear;
+    -ms-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+}
+
+.divider {
+    height: 1px;
+    background-color: #B8B8B8;
+    width: 100%;
+    margin: 0px 0 40px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 576px) {
+    #contain {
+        & .contact {
+            // width: 475px;
+            &_text {
+                &-para {
+                    width: 475px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    #contain {
+        & .mnav {
+            display: none;
+        }
+        & .nav {
+            display: block;
+            display: flex;
+            flex-direction: row;
+            padding-top: 30px;
+            justify-content: space-between;
+            &_list {
+                list-style-type: none;
+                font-family: "Pragati Narrow";
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                display: flex;
+                flex-direction: row;
+                &-li {
+                    margin: 0 15px;
+                    &-first {
+                        margin-left: 0;
+                    }
+                    &-last {
+                        margin-right: 0;
+                    }
+                    & a {
+                        // padding-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nav_list-li a:hover {
+    border-bottom: 1px solid black;
+}
+
+@media only screen and (min-width: 940px) {
+    #contain {
+        & .works {
+            &_box {
+                width: 48.5%;
+                display: inline-block;
+                &-left {
+                    margin-right: 1.5%;
+                }
+                &-right {
+                    margin-left: 1.5%;
+                }
+                &-text {
+                    &-para {
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 940px) {
+    #contain {
+        & .healco {
+            & .works {
+                &_box {
+                    width: 100%;
+                    display: block;
+                    &-left {
+                        margin-right: unset;
+                    }
+                    &-right {
+                        margin-left: unset;
+                    }
+                    &-text {
+                        &-para {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1010px) {
+    #contain {
+        width: 844px;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    #contain {
+        & .works {
+            &_box {
+                // display: flex;
+                // justify-content: space-between;
+                // flex-direction: row-reverse;
+                // &-left {
+                //     width: 30%;
+                // }
+                // &-right {
+                //     width: 65%;
+                // }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1375px) {
+    // #contain {
+    //     width: 1154px;
+    //     margin: auto;
+    // }
+}

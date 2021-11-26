@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pragati+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg==" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/burger.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rugs USA Case Study | Kenny Seo</title>
+</head>
+<body>
+    <nav></nav>
+    <section id="contain">
+        <div class="healco">
+            <nav class="mnav">
+                <div class="nav_left">
+                    <a href="index.html">
+                        <img src="images/logo.svg" class="logo">
+                    </a>
+                </div>
+                <button id="burger" class="hamburger hamburger--squeeze" type="button" onclick="openburger()">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>  
+            </nav>
+            <div id="mnav_slide" class="mnav_slide">
+                <ul class="mnav_list">
+                    <li class="mnav_list-li"><a href="index.html">Works</a></li>
+                    <li class="mnav_list-li"><a href="about.html">About</a></li>
+                    <li class="mnav_list-li"><a href="mailto:seo.kenny94@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+            <div id="mnav_slide-overlay" class="mnav_slide-overlay">
+            </div>
+            <div class="nav">
+                <div class="nav_left">
+                    <a href="index.html">
+                        <img src="images/logo.svg" class="logo">
+                    </a>
+                </div>
+                <ul class="nav_list">
+                    <li class="nav_list-li nav_list-li-first">
+                        <a href="index.html">Works</a>
+                    </li>
+                    <li class="nav_list-li">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="nav_list-li nav_list-li-last">
+                        <a href="mailto:seo.kenny94@gmail.com">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Banner-->
+            <div class="banner">
+                <h1 class="banner_h1">Rugs USA</h1>
+                <p class="banner_p">Exceptional quality at the best prices.</p>
+            </div>
+            <!--Works-->
+            <div class="works">
+                <div class="works_box works_box-left">
+                    <div class="works_box-image">
+                        <img src="images/rugs_banner.png">
+                    </div>
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-header works_box-text-header-quote rugs_banner">
+                            "We make it easier for buyers to find exactly what they're looking for at great prices."
+                        </h3>
+                    </div>
+                </div>
+                <!--What is-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-mini">
+                            Overview
+                        </h3>
+                        <h3 class="works_box-text-header">
+                            What is Rugs USA?
+                        </h3>
+                        <p class="works_box-text-para">
+                            Rugs USA is an ecommerce shop primarily focused on selling high quality rugs at the best prices. Rugs USA provides a wide range and variety of sizes, designs, and weaves made for any customer.
+                        </p>
+                    </div>
+                </div>
+                <!--Roles-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-header">
+                            Roles
+                        </h3>
+                        <p class="works_box-text-para">
+                            My role was primarily as a front end web developer and ux designer. I was part of both the development and design team. I also worked very closely with the analytics team to get a full understanding of what needs change based on user activity. 
+                        </p>
+                    </div>
+                    <div class="works_box-image">
+                        <a href="images/rolesrug.png" data-fancybox>
+                            <img src="images/rolesrug.png">
+                        </a>
+                    </div>
+                </div>
+                <!--Users-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-header">
+                            Users
+                        </h3>
+                        <p class="works_box-text-para">
+                            Rugs USA caters to economical customers who want a great quality rug without having to break their wallets. It was crucial to keep in mind that there were experienced buyers and buyers who have never purchased a single rug before.
+                        </p>
+                    </div>
+                </div>
+                <!--Goals-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-mini">
+                            Goals
+                        </h3>
+                        <h3 class="works_box-text-header">
+                            Issue: Cart Abandonment
+                        </h3>
+                        <p class="works_box-text-para">
+                            A huge issue that the analytics team brought to attention was the amount of carts abandoned. Customers would leave the website or cancel purchasing a rug because they were unsure of many components - how the rugs would look, fit, or how difficult it would be to keep clean.
+                        </p>
+                        <p class="works_box-text-para works_box-text-para-sub rugs_quote">
+                            My main goal was to provide the answers to all asked questions and prevent buyer’s regret, thus providing confidence to rug buyers.
+                        </p>
+                        <!-- <h3 class="works_box-text-header">
+                            Rugs 101: The Ultimate All-in-One
+                        </h3>
+                        <p class="works_box-text-para">
+                            I wanted to create an all-in-one guide for all questions that customers may have, so I spearheaded my own solo project, <b>Rugs 101</b> - a buyer’s guide for new and existing customers who need more information or guidance when purchasing a rug.
+                        </p> -->
+                    </div>
+                </div>
+                <!--Order of Goals-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-header">
+                            Order of Goals
+                        </h3>
+                        <p class="works_box-text-para">
+                            I realized it wasn’t a simple issue of providing more information. A user needs to feel confident from start to finish. Hence, I laid out some goals that needed to be fulfilled to create that confident buying experience.
+                        </p>
+                        <ul class="works_box-text-ol">
+                            <li class="works_box-text-ol-li"><b>Rugs Catalog</b>: When a user first looks for a rug, they are presented a list of rugs with a huge selection of filters. This is where the user views the selection of rugs that Rugs USA provides.</li>
+                            <li class="works_box-text-ol-li"><b>Rug Selected Page</b>: After a user selects a rug from the catalog, they are sent to the rug selected information page. This page provides general information of the selected rug.</li>
+                            <li class="works_box-text-ol-li"><b>Rugs 101</b>: Having identified cart abandonment as a huge issue, knowing the reasoning behind the occurrence was a good first step. An all-in-one glossary for all purchase questions and concerns would provide confidence to every buyer.</li>
+                        </ul>
+                        <div class="works_box-image">
+                            <a href="images/rugs_old.png" data-fancybox>
+                                <img src="images/rugs_old.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Rugs Catalog-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-mini">
+                            Rugs Catalog
+                        </h3>
+                        <h3 class="works_box-text-header">
+                            Window Shopping
+                        </h3>
+                        <p class="works_box-text-para">
+                            Rugs USA’s catalog page features a wide preview of rugs with filters to narrow down searches. Each rug has its own subset of information to give a general idea on the different variations and properties.
+                        </p>
+                        <p class="works_box-text-para">
+                            After consulting with the analytics team, we concluded that there were two main issues. 
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/rugsgoals.png" data-fancybox>
+                                <img src="images/rugsgoals.png">
+                            </a>
+                        </div>
+                        <p class="works_box-text-para">
+                            The <b>first issue</b> was the obscene amount of filters with no structure. There’s no issue with there being a huge selection of filters, but it becomes a hindrance when there is no organization between categories. 
+                        </p>
+                        <p class="works_box-text-para">
+                            The <b>second issue</b> was the lack of useful information within each rug preview card. Crucial information was missing and users were annoyed at having to click on a product to view said information.
+                        </p>
+                    </div>
+                </div>
+                <!--Website Design-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-header">
+                            Rugs Catalog Pt. 1 - Filter
+                        </h3>
+                        <p class="works_box-text-para">
+                            After identifying the lack of structure, I first categorized each option based on relatability. This created an organized overview for users to find what they’re looking for with ease. 
+                        </p>
+                        <p class="works_box-text-para">
+                            Since the rug preview cards were the main content of this page, I moved the most popular filters to the top. This provided a wider range of viewable cards per row - lessening the amount of scrolling.
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/rugs_filter1.png" data-fancybox>
+                                <img src="images/rugs_filter1.png">
+                            </a>
+                        </div>
+                        <p class="works_box-text-para">
+                            The rest of the filters could be found with a button revealing all the possible filters.
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/rugs_filter2.png" data-fancybox>
+                                <img src="images/rugs_filter2.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Rugs Catalog Cards-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-header">
+                            Rugs Catalog Pt. 2 - Preview
+                        </h3>
+                        <p class="works_box-text-para">
+                            Initially, the rug preview cards showed 3 pieces of information - color variations, rug name, and a sale banner. In the age of online shopping, this was nowhere near information. After reviewing what customers requested and viewing successful shopping experiences, I decided on adding 3 more crucial pieces of information - ratings and number of reviews, shipping details, and the actual amount calculated with the current sale.
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/rugspreviews.png" data-fancybox>
+                                <img src="images/rugspreviews.png">
+                            </a>
+                        </div>
+                        <ul class="works_box-text-ol">
+                            <li class="works_box-text-ol-li"><b>Ratings and number of reviews</b> are essential in a preview because it is a quick view of what other customers experienced with the possible product.</li>
+                            <li class="works_box-text-ol-li">In a society where <b>fast shipment</b> can make or break sales, showing how fast a product is shipped gives customers more incentives to purchase a product.</li>
+                            <li class="works_box-text-ol-li">Showing the <b>sales price</b> provides a transparent and upfront view of what the customer will receive without the possibility of disappointment when they click a product.</li>
+                        </ul>
+                        <div class="works_box-image">
+                            <a href="images/rugs_filter0.png" data-fancybox>
+                                <img src="images/rugs_filter0.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Rugs Full View-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-mini">
+                            Rug Full View
+                        </h3>
+                        <h3 class="works_box-text-header">
+                            Found an eye-catching rug?
+                        </h3>
+                        <p class="works_box-text-para">
+                            When a customer views a potential rug, they are presented with the rug full view page. This is where the specificities of each rug is presented.
+                        </p>
+                        <p class="works_box-text-para">
+                            The issue of the initial rug full view page was it provided similar information to the rug preview cards; it was too general and didn’t show specificity. Another issue was the lack of useful features to keep customers engaged. There was no personalized information or interactive and engaging features.
+                        </p>
+                    </div>
+                </div>
+                <!--What I did-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-header">
+                            What I did
+                        </h3>
+                        <p class="works_box-text-para">
+                            The first issue I tackled was the lack of specified information. For the main information that Rugs USA provides, I included a sale timer, every color of the rug, each shape that the rug comes in, every sizing, prices and sales prices for all variations, and shipment estimation.
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/whatidid1.png" data-fancybox>
+                                <img src="images/whatidid1.png">
+                            </a>
+                        </div>
+                        <p class="works_box-text-para">
+                            For the lack of interaction and personalized shopping experience, I provided a “You might also like” and “Your recently viewed” to provide a quick way to access recommendations and previously interested items.
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/whatidid2.png" data-fancybox>
+                                <img src="images/whatidid2.png">
+                            </a>
+                        </div>
+                        <p class="works_box-text-para">
+                            Since reviews and other customer experiences are so crucial when purchasing products, I included a section to view full customer reviews, questions and answers, and customer-uploaded photos. This gave customers third-party feedback about the potential product while also providing inspiration and ideas.
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/rugs_full.png" data-fancybox>
+                                <img src="images/rugs_full.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Rugs 101-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-mini">
+                            Rugs 101
+                        </h3>
+                        <h3 class="works_box-text-header">
+                            The Ultimate All-In-One
+                        </h3>
+                        <p class="works_box-text-para">
+                            This is where I began to really tackle the main issue of cart abandonment - the uncertainties that new and existing customers had when shopping for a rug. I began a solo project called Rugs 101. 
+                        </p>
+                    </div>
+                </div>
+                <!--What is it?-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-header">
+                            Whats is Rugs 101?
+                        </h3>
+                        <p class="works_box-text-para">
+                            Rugs 101 is an all-in-one buyer’s guide for new and existing customers who have questions or are unsure about their purchase. Rugs 101 would feature information regarding:
+                        </p>
+                        <ul class="works_box-text-ol">
+                            <li class="works_box-text-ol-li">Rug Sizing</li>
+                            <li class="works_box-text-ol-li">Weaves and Materials</li>
+                            <li class="works_box-text-ol-li">Washing Instructions</li>
+                            <li class="works_box-text-ol-li">Room Dimension Fitting (How it would look in their room)</li>
+                        </ul>
+                        <p class="works_box-text-para">
+                            These were the main questions and concerns users have given through feedback. Although we did provide general information on the rug full view page, this went into detail on all the possible specifics the users may have.
+                        </p>
+                        <p class="works_box-text-para">
+                            Also included was a glossary for terms that customers may not be familiar with. This broadened their knowledge for future rug purchases.
+                        </p>
+                        <div class="works_box-image">
+                            <a href="images/rugs_101.png" data-fancybox>
+                                <img src="images/rugs_101.png">
+                            </a>
+                        </div>
+                        <p class="works_box-text-para">
+                            Each section goes over in full detail of their respective topics, including images and graphics that help visualize each topic. I made sure to keep it scalable for the future, just in case other guides are needed.
+                        </p>
+                    </div>
+                </div>
+                <!--Conclusion-->
+                <div class="works_box works_box-left">
+                    <div class="works_box-text works_box-left">
+                        <h3 class="works_box-text-mini">
+                            Conclusion
+                        </h3>
+                        <h3 class="works_box-text-header">
+                            A confident customer is a happy one
+                        </h3>
+                        <p class="works_box-text-para">
+                            Knowing the needs of the customers is a huge part of confident purchases. It’s stressful for customers when they purchase an item that may or may not meet their expectations. Providing as much detail from different sources of information blocks can dissolve some of that uncertainty. A confident buyer results in more frequent purchases for the present and the future.
+                        </p>
+                        <p class="works_box-text-para">
+
+                        </p>
+                        <p class="works_box-text-para works_box-text-para-sub rugs_quote">After reviewing analytics, we received a lot of activity and views on our Rugs 101 guide in conjunction with rug purchases, decreasing overall cart abandonment by 37%. This shows that even a bit of guidance can generate confidence in any customer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project_point">
+                    <div class="project_left">
+                        <a href="datadove.html">
+                            <p class="project_point-dir">Prev</p>
+                            <p class="project_point-name">Data Dove</p>
+                        </a>
+                    </div>
+                    <div class="project_right">
+                        <a href="healco.html">
+                            <p class="project_point-dir">Next</p>
+                            <p class="project_point-name">HealCo</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="project_top">
+                    <img src="images/triangle.svg" class="backtotop_svg">
+                    <div class="project_top-contain">
+                        <p class="project_top-text backtotop">
+                            Back to top
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="divider"></div>
+                <div class="contact">
+                    <div class="contact_text">
+                        <h1 class="contact_text-h1">
+                            Want to get in contact?
+                        </h1>
+                        <p class="contact_text-para message_me">
+                            Feel free to send me a message for any questions or inquiries through my email at <span class="email bold"><a href="mailto:seo.kenny94@gmail.com">seo.kenny94@gmail.com</a></span> or <span class="linkedin bold"><a href="https://www.linkedin.com/in/kenny-seo-311918137/">LinkedIn</a></span>.
+                        </p>
+                        <p class="contact_text-para">
+                            Designed and developed by Kenny Seo.
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+        <!--GSAP-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+        
+        <script   src="https://code.jquery.com/jquery-3.5.1.js"   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="   crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js" integrity="sha512-j7/1CJweOskkQiS5RD9W8zhEG9D9vpgByNGxPIqkO5KrXrwyDAroM9aQ9w8J7oRqwxGyz429hPVk/zR6IOMtSA==" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/app.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+</body>
+</html>
