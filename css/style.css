@@ -246,8 +246,6 @@ a {
   padding: 20px;
   padding-left: 30px;
   padding-right: 30px;
-  color: #f7f7f7;
-  background-color: #090909;
 }
 
 #contain .healco .works_box-text-sub {
@@ -263,11 +261,15 @@ a {
 }
 
 .rugs_banner {
-  background-color: #625EB2 !important;
+  border-left: 10px solid #817AF4;
 }
 
 .healco_banner {
-  background-color: #30D6B3 !important;
+  border-left: 10px solid #30D6B3;
+}
+
+.datadove_banner {
+  border-left: 10px solid #FF2765;
 }
 
 .healco_quote {
