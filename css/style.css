@@ -35,12 +35,6 @@ a {
   top: 0;
   right: 7.5%;
   z-index: 40;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 #contain .mnav_list {
@@ -260,6 +254,11 @@ a {
   color: #FF2765;
 }
 
+#nav, #nav2 {
+  -webkit-transition: all .3s ease-in-out !important;
+  transition: all .3s ease-in-out !important;
+}
+
 .rugs_banner {
   border-left: 10px solid #817AF4;
 }
@@ -366,6 +365,20 @@ a {
   margin-top: 20px;
 }
 
+.desktop, .mobile {
+  width: 100%;
+}
+
+.mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 @media only screen and (min-width: 576px) {
   #contain .contact_text-para {
     width: 475px;
@@ -373,7 +386,7 @@ a {
 }
 
 @media only screen and (min-width: 750px) {
-  #contain .mnav {
+  #contain .mobile {
     display: none;
   }
   #contain .nav {
@@ -385,7 +398,6 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding-top: 30px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -452,6 +464,10 @@ a {
 
 @media only screen and (min-width: 1010px) {
   #contain {
+    width: 844px;
+    margin: auto;
+  }
+  .desktop, .mobile {
     width: 844px;
     margin: auto;
   }

@@ -15,17 +15,39 @@
 <body>
     <nav></nav>
     <section id="contain">
-        <nav class="mnav">
-            <div class="nav_left">
-                <a href="index.html">
-                    <img src="images/logo2.svg" class="logo">
-                </a>
+        <nav id="nav" class="mnav">
+            <div class="mobile">
+                <div class="nav_left">
+                    <a href="index.html">
+                        <img src="images/logo2.svg" class="logo">
+                    </a>
+                </div>
+                <button id="burger" class="hamburger hamburger--squeeze" type="button" onclick="openburger()">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>  
             </div>
-            <button id="burger" class="hamburger hamburger--squeeze" type="button" onclick="openburger()">
-                <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-                </span>
-            </button>  
+            <div class="desktop">
+                <div class="nav">
+                    <div class="nav_left">
+                        <a href="index.html">
+                            <img src="images/logo2.svg" class="logo">
+                        </a>
+                    </div>
+                    <ul class="nav_list">
+                        <li class="nav_list-li nav_list-li-first">
+                            <a href="index.html">Works</a>
+                        </li>
+                        <li class="nav_list-li">
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="nav_list-li nav_list-li-last">
+                            <a href="mailto:seo.kenny94@gmail.com">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <div id="mnav_slide" class="mnav_slide">
             <ul class="mnav_list">
@@ -35,24 +57,6 @@
             </ul>
         </div>
         <div id="mnav_slide-overlay" class="mnav_slide-overlay">
-        </div>
-        <div class="nav">
-            <div class="nav_left">
-                <a href="index.html">
-                    <img src="images/logo2.svg" class="logo">
-                </a>
-            </div>
-            <ul class="nav_list">
-                <li class="nav_list-li nav_list-li-first">
-                    <a href="index.html">Works</a>
-                </li>
-                <li class="nav_list-li">
-                    <a href="about.html">About</a>
-                </li>
-                <li class="nav_list-li nav_list-li-last">
-                    <a href="mailto:seo.kenny94@gmail.com">Contact</a>
-                </li>
-            </ul>
         </div>
         <!--Banner-->
         <div class="banner">
